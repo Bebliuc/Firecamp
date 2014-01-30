@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Welcome to Green Framework!</title>
+
+<style type="text/css" media="all">
+
+body { margin: 40px; background-color: #fff; font: 13px/18px "Lucida Grande", Verdana, Sans-serif; color: #455; }
+a { color: #039; font-weight: normal; }
+h1 { margin: 24px 0 2px 0; padding: 5px 0 6px 0; color: #444; border-bottom: 1px solid #ddd; font-size: 18px; }
+pre { margin: 14px 0; padding: 12px 10px; font-family: Monaco, Verdana, Sans-serif; font-size: 12px; background-color: #eee; border: 1px solid #ddd; color: #026; display: block; }
+.page-stats { padding-top: 10px; border-top: 1px solid #ddd; font-size: .83em }
+
+</style>
+
+</head>
+<body>
+
+<h1>Welcome to Green Framework!</h1>
+
+<p><em>When the color is Green! The code is Clean!</em></p>
+
+<p>Green is an easy to learn and an extra light PHP5 Framework.</p>
+
+<p>If you would like to edit this page you'll find it located at:</p>
+<pre><code>app/views/welcome/index.php</code></pre>
+
+<p>The corresponding controller for this page is found at:</p>
+<pre><code>app/controllers/WelcomeController.php</code></pre>
+
+<p>If you are exploring Green Framework for the very first time, you should start by reading the <a href="#" title="not done yet">User Guide</a>.</p>
+
+<p class="page-stats">Page rendered in <b><?php
+ $bm = Benchmark::get('total'); echo $bm['time']; ?></b> seconds.<br />Use <b><?php echo $bm['memory']; ?></b> of memories.</p>
+<h1>Database MySQL test</h1>
+<?php
+global $__CONN__;
+$sql = "SELECT * FROM pagini";
+$pdo = $__CONN__->prepare($sql);
+if($pdo->execute()) {
+	echo 'Conectiunea a fost stabilita.';
+}
+else {
+	echo 'Conectiunea nu a fost stabilita.';
+}
+?>
+</body>
+</html>

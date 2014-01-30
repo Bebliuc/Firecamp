@@ -1,0 +1,129 @@
+
+html {
+    background: none repeat scroll 0 0 #2B2B2B;
+    color: #E6E1DC;
+}
+.editbox {
+    font-family: Monaco,Courier,monospace;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0;
+    padding: 10px;
+}
+.editbox p {
+    margin: 0;
+}
+.xml-tagname {
+    color: #E8BF6A;
+}
+.xml-punctuation {
+    color: #E8BF6A;
+}
+.xml-attname {
+    color: #E8BF6A;
+}
+.xml-attribute {
+    color: #A5C261;
+}
+.xml-comment {
+    color: #777777;
+    font-style: italic;
+}
+.xml-cdata {
+    color: #BBBBBB;
+}
+.xml-processing {
+    color: #999999;
+}
+.xml-entity {
+    color: #DBD7FF;
+}
+.xml-error {
+}
+.xml-text {
+    color: #E6E1DC;
+}
+.pop {
+    background: none repeat scroll 0 0 #222222;
+    color: #CC7833;
+}
+.pop-tagname {
+    color: #CC7833;
+}
+.pop-punctuation {
+    color: #CC7833;
+    padding: 0 3px;
+}
+.pop-attname {
+    color: #F34A39;
+}
+.pop-attribute {
+    color: #78ADCC;
+}
+.pop-starttag {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    color: #CC7833;
+}
+.pop-endtag {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #CC7833;
+}
+.css-selector, .css-select-op, .css-at {
+    color: #E8BF6A;
+}
+.css-punctuation {
+    color: #E6E1DC;
+}
+.css-identifier {
+    color: #CC7833;
+}
+.css-value {
+    color: #A5C261;
+}
+.css-unit {
+    color: #E6E1DC;
+}
+.css-colorcode {
+    color: #78ADCC;
+}
+.css-string {
+    color: #A5C261;
+}
+.css-comment {
+    color: #777777;
+}
+.css-important {
+    color: #F34A39;
+}
+.js-punctuation {
+    color: #E6E1DC;
+}
+.js-operator {
+    color: #CC7833;
+}
+.js-keyword {
+    color: #CC7833;
+}
+.js-variable {
+    color: #E6E1DC;
+}
+.js-variabledef {
+    color: #E8BF6A;
+}
+.js-localvariable {
+    color: #E6E1DC;
+}
+.js-property {
+    color: #E6E1DC;
+}
+.js-atom {
+    color: #78ADCC;
+}
+.js-string {
+    color: #A5C261;
+}
+.js-comment {
+    color: #777777;
+}

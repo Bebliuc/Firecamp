@@ -1,0 +1,32 @@
+.CodeMirror-line-numbers {
+	background: url("bg-codenumbers.png") repeat scroll left top transparent;
+    color: #928888;
+    font-family: Monaco,Courier,monospace;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 10px;
+    text-align: right;
+    width: 24px;
+}
+
+#cmc-suggestions {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+    border: 1px solid #DBDBDB;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    color: #AAAAAA;
+    font-weight: normal;
+    margin-top: 20px;
+    padding: 5px;
+    position: absolute;
+    z-index: 999;
+}
+#cmc-suggestions div {
+    padding: 0 7px 2px;
+}
+
+#cmc-suggestions .selected {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+}

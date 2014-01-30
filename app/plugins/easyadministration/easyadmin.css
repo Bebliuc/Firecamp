@@ -1,0 +1,254 @@
+#easyadministration ol, #easyadministration ul, #easyadministration p, #easyadministration form, #easyadministration input, #easyadministration label,
+#easyadministration a, #easyadministration li, #easyadministration table, #easyadministration h1, #easyadministration h2, #easyadministration h3 {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+    font-size: 13px;
+	vertical-align: baseline;
+    font-family:Arial;
+    line-height:16px;
+}
+
+#easyadministration ol, #easyadministration ul {
+	list-style: none;
+}
+#easyadministration blockquote, #easyadministration q {
+	quotes: none;
+}
+#easyadministration blockquote:before, #easyadministration blockquote:after,
+#easyadministration q:before, #easyadministration q:after {
+	content: '';
+	content: none;
+}
+#easyadministration table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#easyadministration {
+    width:500px;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    top:0px;
+    left:-500px;
+    overflow:visible;
+    background:#E1E2E0 url("images/pixels.png") repeat scroll 0 0;
+}
+
+#easyadministration .ea_nav {
+    background:#A2A29F url("images/pixels.png") repeat scroll 0 0;
+    width:100%;
+}
+
+#easyadministration .ea_nav h2{
+    font-size:13px;
+    font-weight:bold;
+    padding:7px;
+    color:#FFF;
+}
+#easyadministration .ea_nav .buttons {
+    position:absolute;
+    top:0;
+    right:0;
+    height:30px;
+    background-color: green;
+}
+#easyadministration .ea_nav .buttons span {
+    float:left;
+}
+#easyadministration .ea_nav .buttons span a{
+    width:40px;
+    height:30px;
+    display:block;
+    text-indent:-9999px;
+    background-color:#797978;
+    border-right:1px solid #6C6C6C;
+}
+#easyadministration .ea_nav .buttons span a.message_on:hover, #easyadministration .ea_nav .buttons span a.message_off:hover,
+#easyadministration .ea_nav .buttons span a.close:hover, #easyadministration .ea_nav .buttons span a.settings:hover {
+    background-color:#606060;
+}
+#easyadministration .ea_nav .buttons span a.message_on {
+    background:#797978 url("images/message_on.png") no-repeat center center;
+}
+#easyadministration .ea_nav .buttons span a.message_off {
+    background:#797978 url("images/message_off.png") no-repeat center center;
+}
+#easyadministration .ea_nav .buttons span a.close {
+    background:#797978 url("images/close.png") no-repeat center center;
+}
+#easyadministration .ea_nav .buttons span a.settings {
+    background:#797978 url("images/settings.png") no-repeat center center;
+}
+#easyadministration a.easyadministrationtoggle {
+    background-color: red;
+    display: block;
+    height: 10px;
+    position: absolute;
+    right: -20px;
+    text-indent: -9999px;
+    top: 30px;
+    width: 10px;
+}
+#easyadministration textarea {
+    top:0;
+    resize:none;
+}
+#easyadministration .ea_wrapper {
+    margin:10px;
+}
+a#ea_page_edit, a#ea_box_edit {
+    background: none repeat scroll 0 0 #353535;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    border: 0 none !important;
+    color: #F2F2F2 !important;
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Tahoma,Arial,Helvetica,Geneva,sans-serif !important;
+    font-size: 9px !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.6px !important;
+    line-height: 9px !important;
+    text-decoration: none !important;
+    text-transform: lowercase !important;
+    padding:5px !important;
+}
+a#ea_page_edit:hover , a#ea_box_edit:hover  {
+    background: none repeat scroll 0 0 #454545;
+    color:#FFF;
+}
+#easyadministration form {
+    
+}
+
+#easyadministration form p {
+    padding:5px;
+}
+
+#easyadministration label {
+    font-weight:bold;
+    color:#797979;
+    margin-bottom:4px;
+    display:block;
+}
+
+#easyadministration form input {
+    background-color:#FFF;
+    border:0px solid #FFF;
+    font:10px/20px;
+    width:200px;
+    padding:5px;
+    color:#797979;
+}
+
+#easyadministration .ea_selectables {
+    clear:both;
+}
+
+#easyadministration .ea_selectables a {
+    display:block;
+    float:left;
+    margin-left:5px;
+    border: 1px solid #C4C5C4;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    background:#E9E9E9;
+    color:#717171;
+    text-decoration:none;
+    text-shadow:1px 1px 1px rgba(255,255,255, 0.5);
+    -moz-box-shadow: 0 0 0.5em #C4C5C4;
+    -webkit-box-shadow: 0 0 0.5em #C4C5C4;
+    box-shadow: 0 0 0.5em #C4C5C4;
+    padding:5px 10px;
+    margin-bottom:10px;
+}
+#easyadministration .ea_selectables a:hover {
+    background:#E0E0E0;
+}
+
+#easyadministration .ea_selectables a.active {
+    background:#656565;
+    color:#FFFFFF;
+    text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 0 0.5em #C4C5C4;
+    -webkit-box-shadow: 0 0 0.5em #C4C5C4;
+    box-shadow: 0 0 0.5em #C4C5C4;
+}
+
+#easyadministration .ea_switch {
+    background:transparent url(images/spage_status.png) no-repeat scroll 0 0;
+    width:204px;
+    height:38px;
+    clear:both;
+    
+    text-align:center;
+}
+
+#easyadministration .ea_switch a {
+    color: #717171;
+    display: block;
+    float: left;
+    height: 34px;
+    line-height: 31px;
+    margin-left: 1px;
+    margin-top: 1px;
+    width: 100px;
+    text-decoration:none;
+}
+
+#easyadministration .ea_switch a.active {
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.8);
+  color: #FFFFFF;
+  background: none repeat scroll 0 0 #656565;
+  
+}
+
+#easyadministration a#ea_submit {
+    float:right;
+    border: 1px solid #C4C5C4;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    background:#E9E9E9;
+    color:#717171;
+    text-decoration:none;
+    text-shadow:1px 1px 1px rgba(255,255,255, 0.5);
+    -moz-box-shadow: 0 0 0.5em #C4C5C4;
+    -webkit-box-shadow: 0 0 0.5em #C4C5C4;
+    box-shadow: 0 0 0.5em #C4C5C4;
+    padding:7px 12px;
+    
+}
+#easyadministration .hidden {
+    display:none;
+}
+#easyadministration .ea_statistics {
+    height: 258px;
+    overflow: hidden;
+    width: 477px;
+}
+
+#easyadministration .ea_statistics img {
+    margin-top: -25px;
+}
+
+#easyadministration .ea_logger {
+    color:#797979;
+}
+
+#easyadministration .ea_logger p span {
+    background-color: #F0F0F0;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    color: #454545;
+    font-size: 9px;
+    margin-right: 10px;
+    padding: 0 4px 1px;
+    text-align: center;
+    white-space: nowrap;
+}

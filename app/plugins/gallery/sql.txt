@@ -1,0 +1,12 @@
+CREATE TABLE `gallery_albums` (
+`id` INT( 10 ) NULL AUTO_INCREMENT PRIMARY KEY ,
+`name` VARCHAR( 255 ) NULL
+) ENGINE = MYISAM ;
+
+CREATE TABLE `gallery_photos` (
+`id` INT( 10 ) NULL AUTO_INCREMENT PRIMARY KEY ,
+`title` INT( 255 ) NULL ,
+`caption` TEXT NULL ,
+`filename` VARCHAR( 255 ) NULL ,
+`albume` INT( 10 ) NULL
+) ENGINE = MYISAM ;

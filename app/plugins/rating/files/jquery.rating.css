@@ -1,0 +1,37 @@
+	#rating ul {
+		list-style:none;
+		margin:0;
+		padding:0;
+	}
+	#rating ul li {
+		float:left;
+		display:inline;
+		width:16px;
+		height:16px;
+		background:transparent url('images/stars.gif') no-repeat 0 0;
+		display:block;
+	}
+	#rating ul li a {
+		width:16px;
+		height:16px;
+		display:block;
+		text-indent:-9999px;
+		outline: none;
+	}
+	#rating ul li:hover {
+		background-position:0 -32px;
+	}
+	html body #rating ul li.selected {
+		background-position:0 -32px;
+	}
+	#rating ul li.disabled {
+		background-position:0 -16px;
+		cursor:pointer;
+	}
+	#rating ul li.unselected {
+		background-position:0 0px;
+		cursor:pointer;
+	}
+	#rating.active ul li.selected:hover {
+		background-position:0 -32px;
+	}

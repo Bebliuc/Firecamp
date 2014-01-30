@@ -1,0 +1,1 @@
+<a href="<?php echo get_url('plugin/boxes/create'); ?>"><span class="color-label"><b class="label-red"></b></span> Create new box</a>
